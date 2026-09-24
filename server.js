@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("Hello! My CI application is working.");
+    res.send("Hello! My CI application is working successfully!");
 });
 
 app.listen(PORT, () => {
